@@ -14,13 +14,50 @@
 
   }
 
+.inside-header.grid-container{
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+  }
+
+
+  
+  #menu-item-84 a,
+  li.menu-item:nth-child(2) > a:nth-child(1),
+  #menu-item-82 a{
+      padding-top: 10px!important;
+      padding-bottom: 10px!important;
+  }
+  
+  #menu-item-84 a:hover,
+  li.menu-item:nth-child(2) > a:nth-child(1):hover,
+  #menu-item-82 a:hover{
+      color: white!important;
+      background-color: #DC9F96!important;
+  }
+
+/*formulaire contact nous rencontrer*/
+.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
+.wpcf7-form-control.wpcf7-textarea{
+    border-radius: 7px;
+}
+
+.wpcf7-form-control.wpcf7-submit.has-spinner.nous-rencontrer{
+    margin-left:100px;
+}
+/*boutton quantité page commander*/
+
+.commande-button{
+height: 56px;
+width: 62px;
+}
+/*formulaire contact page commander*/
   .formulaire-contact .colonne-gauche,
   .formulaire-contact .colonne-droite {
     width: 50%;
     color: white;
   }
 
-  /* titre des colones*/
+  /* titre des colonnes*/
 .titre-col-1,
 .titre-col-2{
     font-weight:700;
@@ -56,6 +93,13 @@
         margin: 0 auto;
     }
 
+/*formulaire contact nous rencontrer*/
+.wpcf7-form-control.wpcf7-submit.has-spinner.nous-rencontrer{
+    margin-left:40px;
+}
+
+
+/*formulaire contact commander*/
     .formulaire-contact .colonne-gauche input,
     .formulaire-contact .colonne-droite input{
       width: 300px;
@@ -82,6 +126,10 @@
         margin: 0 auto;
     }
 
+/*formulaire contact nous rencontrer*/
+.wpcf7-form-control.wpcf7-submit.has-spinner.nous-rencontrer{
+    margin-left:0px;
+}
       /* titre des colones*/
 .titre-col-1,
 .titre-col-2{
