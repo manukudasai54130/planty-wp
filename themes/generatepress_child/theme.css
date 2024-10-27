@@ -23,7 +23,6 @@
   
   #menu-item-84 a,
   li.menu-item:nth-child(2) > a:nth-child(1),
-  #menu-item-82 a,
   #menu-item-792 a{
       padding-top: 10px!important;
       padding-bottom: 10px!important;
@@ -31,7 +30,6 @@
   
   #menu-item-84 a:hover,
   li.menu-item:nth-child(2) > a:nth-child(1):hover,
-  #menu-item-82 a:hover,
   #menu-item-792 a:hover{
       color: white!important;
       background-color: #DC9F96!important;
