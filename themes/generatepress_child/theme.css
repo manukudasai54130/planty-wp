@@ -44,50 +44,10 @@
 .wpcf7-form-control.wpcf7-submit.has-spinner.nous-rencontrer{
     margin-left:100px;
 }
-/*boutton quantité page commander*/
-
-.commande-button{
-height: 56px;
-width: 62px;
-}
-/*formulaire contact page commander*/
-  .formulaire-contact .colonne-gauche,
-  .formulaire-contact .colonne-droite {
-    width: 50%;
-    color: white;
-  }
-
-  /* titre des colonnes*/
-.titre-col-1,
-.titre-col-2{
-    font-weight:700;
-    font-size: 30px;
-  }
-
-  .formulaire-contact .colonne-gauche input,
-  .formulaire-contact .colonne-droite input{
-    width: 500px;
-    height: 71px;
-    border-radius: 7px;
-    margin-bottom: 20px;
-  }
-
-  /*button commander*/
-.wpcf7-form-control.wpcf7-submit.has-spinner{
-    background-color: #E0B9B4;
-    width: 198px;
-    height: 55px;
-    border-radius: 5px;
-    margin-left: 472px;
-    margin-bottom: 50px;
-}
-
-.colonne-droite{
-    margin-left: 100px;
-}
 
 
-/* form final*/
+
+/* formulaire page commander partie haute*/
 
 .image-bandeau{
     display: flex;
@@ -141,6 +101,45 @@ width: 62px;
     margin-left:94px;
 }
 
+/*formulaire contact page commander partie basse*/
+  .formulaire-contact .colonne-gauche,
+  .formulaire-contact .colonne-droite {
+    width: 50%;
+    color: white;
+  }
+
+  /* titre des colonnes*/
+.titre-col-1,
+.titre-col-2{
+    font-weight:700;
+    font-size: 30px;
+  }
+
+  .formulaire-contact .colonne-gauche input,
+  .formulaire-contact .colonne-droite input{
+    width: 500px;
+    height: 71px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+  }
+
+  /*button commander*/
+.wpcf7-form-control.wpcf7-submit.has-spinner{
+    background-color: #E0B9B4;
+    width: 198px;
+    height: 55px;
+    border-radius: 5px;
+    margin-left: 472px;
+    margin-bottom: 50px;
+}
+
+.colonne-droite{
+    margin-left: 100px;
+}
+
+
+
+
 @media (max-width: 1024px) { 
 
     .main{
@@ -154,26 +153,7 @@ width: 62px;
 }
 
 
-/*formulaire contact commander*/
-    .formulaire-contact .colonne-gauche input,
-    .formulaire-contact .colonne-droite input{
-      width: 300px;
-      height: 71px;
-      border-radius: 7px;
-      margin-bottom: 20px;
-    }
-
-      /*button commander*/
-.wpcf7-form-control.wpcf7-submit.has-spinner{
-    background-color: #E0B9B4;
-    width: 198px;
-    height: 55px;
-    border-radius: 5px;
-    margin-left: 270px;
-    margin-bottom: 50px;
-}
-
-/* final form*/
+/*formulaire contact commander partie haute*/
 .titre-fraise{
     top:30px;
     right:610px;
@@ -204,6 +184,26 @@ width: 62px;
     margin-left:50px;
 }
 
+/*formulaire contact commander partie basse*/
+    .formulaire-contact .colonne-gauche input,
+    .formulaire-contact .colonne-droite input{
+      width: 300px;
+      height: 71px;
+      border-radius: 7px;
+      margin-bottom: 20px;
+    }
+
+      /*button commander*/
+.wpcf7-form-control.wpcf7-submit.has-spinner{
+    background-color: #E0B9B4;
+    width: 198px;
+    height: 55px;
+    border-radius: 5px;
+    margin-left: 270px;
+    margin-bottom: 50px;
+}
+
+
 }
 
 @media (max-width: 767px) { 
@@ -217,36 +217,8 @@ width: 62px;
 .wpcf7-form-control.wpcf7-submit.has-spinner.nous-rencontrer{
     margin-left:0px;
 }
-      /* titre des colones*/
-.titre-col-1,
-.titre-col-2{
-    font-weight:400;
-    font-size: 20px;
-  }
 
-  .formulaire-contact .colonne-gauche,
-  .formulaire-contact .colonne-droite {
-    width: 35%;
-    color: white;
-  }
-    .formulaire-contact .colonne-gauche input,
-    .formulaire-contact .colonne-droite input{
-      width:200px;
-      height: 71px;
-      border-radius: 7px;
-      margin-bottom: 20px;
-    }
-
-      /*button commander*/
-.wpcf7-form-control.wpcf7-submit.has-spinner{
-    background-color: #E0B9B4;
-    width: 198px;
-    height: 55px;
-    border-radius: 5px;
-    margin-left: 75px;
-    margin-bottom: 50px;
-}
-/*finalform*/
+/*formulaire commander partie haute*/
 
     /* Organisation en colonne des éléments */
     .image-bandeau {
@@ -262,7 +234,7 @@ width: 62px;
         height: auto;
     }
 
-    /* Ajuster les blocs d'image pour une meilleure lisibilité */
+    /* Ajuster les blocs d'image  */
     .image-bandeau > div {
         width: 100%;
         text-align: center;
@@ -304,6 +276,36 @@ width: 62px;
         left: 85px;
         
     }
+
+/* titre des colones*/
+.titre-col-1,
+.titre-col-2{
+    font-weight:400;
+    font-size: 20px;
+  }
+
+  .formulaire-contact .colonne-gauche,
+  .formulaire-contact .colonne-droite {
+    width: 35%;
+    color: white;
+  }
+    .formulaire-contact .colonne-gauche input,
+    .formulaire-contact .colonne-droite input{
+      width:200px;
+      height: 71px;
+      border-radius: 7px;
+      margin-bottom: 20px;
+    }
+
+      /*button commander*/
+.wpcf7-form-control.wpcf7-submit.has-spinner{
+    background-color: #E0B9B4;
+    width: 198px;
+    height: 55px;
+    border-radius: 5px;
+    margin-left: 75px;
+    margin-bottom: 50px;
+}
 
 }
 
