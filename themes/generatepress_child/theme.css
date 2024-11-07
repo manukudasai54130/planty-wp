@@ -14,12 +14,11 @@
 
   }
 
+
 .inside-header.grid-container{
     padding-top: 0px!important;
     padding-bottom: 0px!important;
   }
-
-
   
   #menu-item-84 a,
   li.menu-item:nth-child(2) > a:nth-child(1),
@@ -36,110 +35,137 @@
   }
 
 /*formulaire contact nous rencontrer*/
+.wpcf7-form > p:nth-child(5) > img:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Largeur de l'image ajustée à 100% du conteneur */
+    height: auto;
+    opacity: 0.2; /* Ajustez l'opacité pour obtenir un effet de fond subtil */
+    z-index: -1; /* Place l'image en arrière-plan sous le texte */
+}
+
+
 .wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
 .wpcf7-form-control.wpcf7-textarea{
     border-radius: 7px;
 }
 
+
 .wpcf7-form-control.wpcf7-submit.has-spinner.nous-rencontrer{
     margin-left:100px;
+    width: 198px;
+    height: 51px;
 }
-
 
 
 /* formulaire page commander partie haute*/
 
-.image-bandeau{
+.image-bandeau {
     display: flex;
-    margin-bottom: 100px;
-
+    margin-bottom: 5%;
+    justify-content: space-around; /* Équilibre l'espacement horizontal des éléments */
 }
 
 .img-fraise,
 .img-pamplemousse,
 .img-framboise,
-.img-citron{
-    padding-right: 40px;
+.img-citron {
+    padding-right: 10%; /* Espacement entre les images en pourcentage */
 }
+
 
 .titre-fraise,
 .titre-pamplemousse,
 .titre-framboise,
-.titre-citron{
+.titre-citron {
     position: absolute;
     font-weight: 800;
-    font-size: 20px;
-    color:white;
-}
-
-.titre-fraise{
-    top:64px;
-    right:970px;
-}
-
-.titre-pamplemousse{
-    top: 54px;
-    right:655px;
-}
-
-
-.titre-framboise{
-    top: 54px;
-    right:397px;
-}
-
-.titre-citron{
-    top:64px;
-    right:94px;
-}
-
-.bloc-framboise > p:nth-child(3) > span:nth-child(1) > input:nth-child(1),
-.bloc-fraise > p:nth-child(3) > span:nth-child(1) > input:nth-child(1),
-.bloc-pamplemousse > p:nth-child(3) > span:nth-child(1) > input:nth-child(1),
-.bloc-citron > p:nth-child(3) > span:nth-child(1) > input:nth-child(1){
-    width: 59px!important;
-    margin-left:94px;
-}
-
-/*formulaire contact page commander partie basse*/
-  .formulaire-contact .colonne-gauche,
-  .formulaire-contact .colonne-droite {
-    width: 50%;
+    font-size: 1.5rem; /* Utilisation des rem pour une taille de texte adaptable */
     color: white;
-  }
+}
 
-  /* titre des colonnes*/
+/* Positionnement des titres en utilisant les pourcentages */
+.titre-fraise {
+    top: 7%;
+    right:83%;
+}
+
+.titre-pamplemousse {
+    top: 5%;
+    right: 55%;
+}
+
+.titre-framboise {
+    top: 5%;
+    right: 34%;
+}
+
+.titre-citron {
+    top: 7%;
+    right: 7%;
+}
+
+/* Champs de quantité */
+.bloc-fraise > p:nth-child(2) > span:nth-child(1) > input:nth-child(1),
+.bloc-pamplemousse > p:nth-child(2) > span:nth-child(1) > input:nth-child(1),
+.bloc-framboise > p:nth-child(2) > span:nth-child(1) > input:nth-child(1),
+.bloc-citron > p:nth-child(2) > span:nth-child(1) > input:nth-child(1){
+    width: 22%; /* Largeur des champs de quantité en pourcentage */
+    margin-left: 35%;
+}
+
+/* Section de formulaire */
+.formulaire-contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    color: white;
+}
+
+.colonne-gauche,
+.colonne-droite {
+    width: 48%;
+}
+
 .titre-col-1,
-.titre-col-2{
-    font-weight:700;
-    font-size: 30px;
-  }
+.titre-col-2 {
+    font-weight: 700;
+    font-size: 2rem; /* Taille du titre adaptable */
+}
 
-  .formulaire-contact .colonne-gauche input,
-  .formulaire-contact .colonne-droite input{
-    width: 500px;
-    height: 71px;
+.formulaire-contact .colonne-gauche input,
+.formulaire-contact .colonne-droite input {
+    width: 90%; /* Largeur des champs de formulaire en pourcentage */
+    height: 4em; /* Utilisation des em pour une hauteur adaptable */
     border-radius: 7px;
-    margin-bottom: 20px;
-  }
+    margin-bottom: 5%;
+}
 
-  /*button commander*/
-.wpcf7-form-control.wpcf7-submit.has-spinner{
+/* Bouton "Commander" */
+.wpcf7-form-control.wpcf7-submit.has-spinner {
     background-color: #E0B9B4;
-    width: 198px;
-    height: 55px;
+    width: 20%; /* Largeur en pourcentage pour plus de flexibilité */
+    height: 3.5em;
     border-radius: 5px;
-    margin-left: 472px;
-    margin-bottom: 50px;
+    margin-left: 40%; /* Centre le bouton */
+    margin-right: auto;
+    margin-bottom: 5%;
 }
 
-.colonne-droite{
-    margin-left: 100px;
+.colonne-droite {
+    margin-left: 5%;
 }
 
 
+.menu-toggle{
+    background-color: #E0B9B4!important;
+    color: black;
+}
 
-
+.copyright-bar a{
+    text-decoration: none;
+}
 @media (max-width: 1024px) { 
 
     .main{
@@ -153,58 +179,47 @@
 }
 
 
-/*formulaire contact commander partie haute*/
-.titre-fraise{
-    top:30px;
-    right:610px;
+.titre-fraise,
+.titre-pamplemousse,
+.titre-framboise,
+.titre-citron {
+    font-size: 1.3rem; /* Utilisation des rem pour une taille de texte adaptable */
+
+}
+/* Positionnement des titres en utilisant les pourcentages */
+.titre-fraise {
+    top: 6%;
+    right:80%;
+}
+
+.titre-pamplemousse {
+    top: 4%;
+    right: 53%;
+}
+
+.titre-framboise {
+    top: 4%;
+    right: 31%;
+}
+
+.titre-citron {
+    top: 6%;
+    right: 4%;
+}
+
+/* Champs de quantité */
+
+.bloc-fraise > p:nth-child(2) > span:nth-child(1) > input:nth-child(1),
+.bloc-pamplemousse > p:nth-child(2) > span:nth-child(1) > input:nth-child(1),
+.bloc-framboise > p:nth-child(2) > span:nth-child(1) > input:nth-child(1),
+.bloc-citron > p:nth-child(2) > span:nth-child(1) > input:nth-child(1){
+    width: 30%!important; /* Largeur des champs de quantité en pourcentage */
+    margin-left: 35%;
+}
+
 }
 
 
-.titre-pamplemousse{
-    top: 20px;
-    right:415px;
-    font-size: 19px;
-}
-
-.titre-framboise{
-    top: 15px;
-    right:250px;
-}
-
-.titre-citron{
-    top:30px;
-    right:50px;
-}
-
-.bloc-framboise > p:nth-child(3) > span:nth-child(1) > input:nth-child(1),
-.bloc-fraise > p:nth-child(3) > span:nth-child(1) > input:nth-child(1),
-.bloc-pamplemousse > p:nth-child(3) > span:nth-child(1) > input:nth-child(1),
-.bloc-citron > p:nth-child(3) > span:nth-child(1) > input:nth-child(1){
-    width: 59px!important;
-    margin-left:50px;
-}
-
-/*formulaire contact commander partie basse*/
-    .formulaire-contact .colonne-gauche input,
-    .formulaire-contact .colonne-droite input{
-      width: 300px;
-      height: 71px;
-      border-radius: 7px;
-      margin-bottom: 20px;
-    }
-
-      /*button commander*/
-.wpcf7-form-control.wpcf7-submit.has-spinner{
-    background-color: #E0B9B4;
-    width: 198px;
-    height: 55px;
-    border-radius: 5px;
-    margin-left: 270px;
-    margin-bottom: 50px;
-}
-
-
-}
 
 @media (max-width: 767px) { 
 
@@ -227,56 +242,73 @@
         align-items: center;
         gap: 30px;
     }
-    
-    /* Centrer les images et ajuster leur taille pour le mobile */
-    .image-bandeau img {
-        width: 200px; /* Ajustement taille des images  */
-        height: auto;
-    }
 
-    /* Ajuster les blocs d'image  */
-    .image-bandeau > div {
-        width: 100%;
-        text-align: center;
-    }
+.bloc-fraise,
+.bloc-citron,
+.bloc-framboise,
+.bloc-pamplemousse{
+    width:100%;
+}
+.contenu-fraise,
+.contenu-pamplemousse,
+.contenu-framboise,
+.contenu-citron{
+    position: relative;
+}
+
+.img-fraise,
+.img-pamplemousse,
+.img-framboise,
+.img-citron{
+    padding-right: 0;
+}
 
 
+.titre-pamplemousse{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%, -50%);
+    right:0;
+}
 
-    .img-citron,
-    .img-framboise,
-    .img-pamplemousse,
-    .img-fraise{
-        margin-left: 70px;
-    }
+.titre-fraise{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-33%, -50%);
+    right:0;
+}
 
-    .titre-fraise{
-        position: absolute;
-        width: 200px;
-        left: 85px;
-        
-    }
-    .titre-pamplemousse{
-        position: absolute;
-        width: 200px;
-        top: 270px;
-        left: 85px;
-        
-    }
-    .titre-framboise{
-        position: absolute;
-        width: 200px;
-        top:510px;
-        left: 85px;
-        
-    }
-    .titre-citron{
-        position: absolute;
-        width: 200px;
-        top:760px;
-        left: 85px;
-        
-    }
+.titre-framboise{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-30%, -50%);
+    right:0;
+}
 
+.titre-citron{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-37%, -50%);
+    right:0;
+}
+
+.bloc-fraise > p:nth-child(2) > span:nth-child(1) > input:nth-child(1),
+.bloc-pamplemousse > p:nth-child(2) > span:nth-child(1) > input:nth-child(1),
+.bloc-framboise > p:nth-child(2) > span:nth-child(1) > input:nth-child(1),
+.bloc-citron > p:nth-child(2) > span:nth-child(1) > input:nth-child(1){
+    width:25%;
+}
+
+/*Formulaire contact*/
+
+.formulaire-contact{
+    flex-direction: column;
+    margin-top: 20%;
+}
 /* titre des colones*/
 .titre-col-1,
 .titre-col-2{
@@ -286,12 +318,17 @@
 
   .formulaire-contact .colonne-gauche,
   .formulaire-contact .colonne-droite {
-    width: 35%;
+    width: 100%;
     color: white;
+
+  }
+
+  .colonne-droite{
+    margin-left:0;
   }
     .formulaire-contact .colonne-gauche input,
     .formulaire-contact .colonne-droite input{
-      width:200px;
+      width:100%;
       height: 71px;
       border-radius: 7px;
       margin-bottom: 20px;
@@ -303,12 +340,10 @@
     width: 198px;
     height: 55px;
     border-radius: 5px;
-    margin-left: 75px;
+    margin-left: 27%;
     margin-bottom: 50px;
 }
 
 }
-
-
 
 
