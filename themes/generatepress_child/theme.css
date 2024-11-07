@@ -34,17 +34,14 @@
       background-color: #DC9F96!important;
   }
 
-/*formulaire contact nous rencontrer*/
-.wpcf7-form > p:nth-child(5) > img:nth-child(1) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%; /* Largeur de l'image ajustée à 100% du conteneur */
-    height: auto;
-    opacity: 0.2; /* Ajustez l'opacité pour obtenir un effet de fond subtil */
-    z-index: -1; /* Place l'image en arrière-plan sous le texte */
+  /* boutton commander page accueil*/
+  .elementor-button-text{
+    height:55px;
+    width: 198px;
+    padding-top:20px;
 }
 
+/*formulaire contact nous rencontrer*/
 
 .wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,
 .wpcf7-form-control.wpcf7-textarea{
