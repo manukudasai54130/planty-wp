@@ -36,9 +36,9 @@
 
   /* boutton commander page accueil*/
   .elementor-button-text{
-    height:55px;
-    width: 198px;
-    padding-top:20px;
+    height: 30px !important;
+    width: 150px !important;
+    padding-top: 10px !important;
 }
 
 /*formulaire contact nous rencontrer*/
